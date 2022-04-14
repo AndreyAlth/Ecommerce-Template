@@ -1,0 +1,9 @@
+.buy-button{
+    width: 163px;
+    height: 50px;
+    background: var(--pink);
+    border: none;
+    font: var(--buttonText);
+    font-size: 17px;
+    color: white;
+}

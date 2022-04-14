@@ -1,0 +1,9 @@
+.order-message{
+    font: var(--heading);
+    color: var(--offBlue) ;
+}
+
+.order-checked{
+    border-radius: 50px;
+    background: var(--gray);
+}

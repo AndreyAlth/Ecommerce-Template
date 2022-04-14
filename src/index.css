@@ -1,13 +1,41 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import "./css/headingBar.css";
+@import "./css/navBar.css";
+@import "./css/BuyButton.css";
+@import "./css/carousel.css";
+@import "./css/viewer.css";
+@import "./css/login.css";
+@import "./css/footer.css";
+@import "./css/contact.css";
+@import "./css/productScreen.css";
+@import "./css/banner.css";
+@import "./css/orderCompleted.css";
+
+
+:root{
+  --fontLato:'Lato', sans-serif;
+  --fontJosefin: 'Josefin Sans', sans-serif;
+  --listTitles: 600 22px/22px var(--fontJosefin);
+  --paragraphText: 16px/20px var(--fontLato);
+  --listItem: 600 11px/11px var(--fontJosefin);
+  --heading: 700 28px/28px var(--fontJosefin);
+  --bigFont: 700 64px/64px var(--fontJosefin);
+  --caption: 400 14px/14px var(--fontJosefin);
+  --buttonText: 600 16px/16px var(--fontJosefin);
+  --priceCut: 400 12px/12px var(--fontJosefin);
+  --captionTitle: 700 42px/42px var(--fontJosefin) ;
+  --pink: #FB2E86;
+  --red: #FB2448;
+  --blue:#2F1AC4;
+  --offNavyBlue: #3F509E;
+  --navyBlue: #151875;
+  --skyBlue: #F1F0FF;
+  --pantonePurple: #E0D3F5;
+  --purple: #7E33E0;
+  --offPurple: #9F63B5;
+  --offBlue: #101750;
+  --gray: #E7E4F8;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  margin: 0;
 }

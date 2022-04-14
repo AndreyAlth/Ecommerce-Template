@@ -1,0 +1,24 @@
+.logo{
+    font-size: 34px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #0D0E43;
+}
+
+.category{
+    color: var(--pink);
+    font: var(--paragraphText);  
+}
+
+.search{
+    width: 477px;
+    border: 1px solid #E7E6EF;
+    border-radius: 0;
+}
+
+.search-button{
+    background: var(--pink);
+    border-radius: 0;
+    height: 40px;
+    width: 50px;
+}
