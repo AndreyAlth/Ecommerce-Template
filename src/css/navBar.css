@@ -3,11 +3,21 @@
     font-weight: 700;
     font-family: 'Josefin Sans', sans-serif;
     color: #0D0E43;
+    text-decoration: none;
+
+}
+
+.logo a:hover{
+    color: black;
 }
 
 .category{
     color: var(--pink);
     font: var(--paragraphText);  
+}
+
+.category:hover{
+    color: var(--pink);
 }
 
 .search{

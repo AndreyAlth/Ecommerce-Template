@@ -26,19 +26,19 @@ function DashboardRoute() {
     return (
         <div>
             <HeadingBar/>
-            <NavBar/>
-            <Routes>
+            {/* <NavBar/> */}
+            {/* <Routes>
                 <Route path="/" element={ PrincipalSection() }/>
                 <Route path="/*" element={ <NotFound/> }/>
                 <Route path="contact" element={ <Contact/> }/>
 
-                {/* <Route path="product" element={ <ProductScreen/>}/> */}
+                <Route path="product" element={ <ProductScreen/>}/>
                 <Route path="product/:productId" element={ <ProductScreen/>}/>
 
                 <Route path="shipping" element={ <ShippingScreen/> }/>
                 <Route path="orderCompleted" element={ <OrderCompleted/> }/>
                 <Route path="banner" element={ <Banner bannerTitle="Shopping"/> }/>
-            </Routes>
+            </Routes> */}
             <Footer/>
         </div>
     )

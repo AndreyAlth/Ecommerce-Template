@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 function HeadingBar() {
     return (
         <div className="headingBar">
-            <div className="container">
+            <div className="container headingBar-container">
                 <ul>
                     <li>
                         <Link to="login">Entrar</Link>
