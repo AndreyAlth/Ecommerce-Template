@@ -21,11 +21,11 @@ function Login() {
                 url: 'http://localhost:8080/api/auth/login',
                 headers: {
                     'Accept': 'application/json, text/plain, */*',
-                    'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+                    'Content-Type': 'application/json',
                     "Access-Control-Allow-Origin": "*",
                     'Accept':'*/*',
                 },
-                data
+                body: data
               })
               .then( (res) => console.log(res))
               .then( data => {

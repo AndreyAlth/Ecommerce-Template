@@ -10,6 +10,11 @@
 @import "./css/banner.css";
 @import "./css/orderCompleted.css";
 
+/* Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 
 :root{
   --fontLato:'Lato', sans-serif;

@@ -11,18 +11,18 @@ function Viewer() {
     const title = "Productos Destacados"
     const featuredProducts = getProductByCategory("Destacado")
     return (
-        <div className="viewer">
-            <p className="title">{title}</p>
-            <div className="products">
+        <div className="viewer xl:px-80 lg:px-80 md:px-10 sm:px-5">
+            <p className="title lg:text-4xl sm:text-4xl mobile:text-8xl my-4">{title}</p>
+            <div className="products grid grid-cols-12 gap-6">
                 {
                     featuredProducts.map( product => (
-                        <div className="card-viewer">
+                        <div className="card-viewer col-span-full sm:col-span-6 xl:col-span-3">
                             <Link to={`/product/${product.id}`}>
-                                <div className="card-image-container-viewer">
-                                    <img className="card-image" src={product.images[0]} alt="chair"/>
+                                <div className="flex flex-col">
+                                    <img className="w-full" src={product.images[0]} alt="chair"/>
                                 </div>
-                                <div className="card-body">
-                                    <p className="card-title">
+                                <div className="card-body grow flex flex-col">
+                                    <p className="card-title text-lg">
                                         {product.title}
                                     </p>
                                     <p className="card-price">

@@ -3,21 +3,21 @@
 }
 
 .title{
-    font: var(--captionTitle);
+    /* font: var(--captionTitle); */
     color: #1A0B5B;
-    margin-block-start: 130px;
-    margin-block-end: 55px ;
+    /* margin-block-start: 130px; */
+    /* margin-block-end: 55px ; */
 }
 
-.products{
+/* .products{
     display: flex;
     justify-content: center;
-}
+} */
 
-.card-viewer{
+/* .card-viewer{
     width: 270px;
     height: 360px;
-}
+} */
 
 .card-viewer a {
     text-decoration: none;
@@ -45,8 +45,6 @@
 
 .card-title{
     font-family: 'Lato', sans-serif;
-    font-size: 18px;
-    font-weight: 700;
     color: var(--pink);
 }
 
