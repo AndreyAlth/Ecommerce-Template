@@ -6,69 +6,7 @@ const axios = require('axios').default;
 function Login() {
     const [correo, setCorreo] = useState("")
     const [password, setPassword] = useState("")
-
-    async function loginUser() {
-
-        
-
-        try {
-            const data = JSON.stringify({correo, password})
-            // const data = {correo, password}
-            console.log(data)
-
-            await axios({
-                method: 'POST',
-                url: 'http://localhost:8080/api/auth/login',
-                headers: {
-                    'Accept': 'application/json, text/plain, */*',
-                    'Content-Type': 'application/json',
-                    "Access-Control-Allow-Origin": "*",
-                    'Accept':'*/*',
-                },
-                body: data
-              })
-              .then( (res) => console.log(res))
-              .then( data => {
-                  console.log(data);
-              })
-              .catch(error => {
-                console.log(error.response, error.message, error.request.response)
-            });
-            
-        } catch (error) {
-        }
-
-
-        
-
-        
-        // const options = {
-        //     headers: {
-        //         'Content-type': 'text/plain'
-        //     }
-        // }
-        // try {
-        //     const response = await axios.post('http://localhost:8080/api/auth/login', {
-        //         correo: correo,
-        //         password: password
-        //     },{ options}).then((res) => {
-        //         console.log(res)
-        //     })
-        //     console.log(response);
-
-        //     // const response = await fetch('http://localhost:8080/api/auth/login', {
-        //     //     method: "POST",
-        //     //     headers: {
-        //     //         'Content-Type': 'application/json'
-        //     //     },
-        //     //     body: body
-        //     // })
-        //     console.log(response);
-        // } catch (error) {
-        //   console.error(error);
-        // }
-      }
-
+    
     return (
         <div className="container">
             <div className="login-container">
